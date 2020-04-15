@@ -6,13 +6,14 @@ end
 sup "Dan"
 
 dan = "Dan"
-puts dan
+
 def changeName(name)
   name = name + "!"
   return name
 end
 
 def a
+  dan = "Dan"
   puts "#{changeName(dan)} yay!"
 end
 
