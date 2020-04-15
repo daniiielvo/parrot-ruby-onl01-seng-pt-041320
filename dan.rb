@@ -4,3 +4,12 @@ def sup(name)
 end
 
 sup "Dan"
+
+dan = "Dan"
+def changeName(name)
+  name = name + "!"
+  return name
+end
+
+changeName(name)
+name
