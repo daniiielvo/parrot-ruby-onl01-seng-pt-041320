@@ -6,10 +6,11 @@ end
 sup "Dan"
 
 dan = "Dan"
+puts dan
 def changeName(name)
   name = name + "!"
   return name
 end
 
-changeName(name)
-name
+changeName(dan)
+puts dan
