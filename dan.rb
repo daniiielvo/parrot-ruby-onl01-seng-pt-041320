@@ -9,7 +9,7 @@ dan = "Dan"
 
 def changeName(name)
   name = name + "!"
-  return name
+  puts name
 end
 
 def a
