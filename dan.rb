@@ -12,5 +12,8 @@ def changeName(name)
   return name
 end
 
-changeName(dan)
-puts dan
+def a
+  puts "#{changeName(dan)} yay!"
+end
+
+a
