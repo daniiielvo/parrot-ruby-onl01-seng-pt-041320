@@ -14,7 +14,7 @@ end
 
 def a
   dan = "Dan"
-  puts "#{changeName(dan)} yay!"
+  return "#{changeName(dan)} yay!"
 end
 
 a
